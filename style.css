@@ -6,13 +6,17 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 .header_name{
     color: orange;
 }
 
-section{
+.flexible_container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .half-width{
@@ -46,4 +50,21 @@ section{
     background-image: url(images/index.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience_area{
+    background-image: url(images/backg2.png);
+}
+
+.experience_item{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 20px grey;
+    border-left: 7px solid blue;
+}
+
+footer{
+    text-align: center;
 }
